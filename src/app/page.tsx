@@ -61,11 +61,6 @@ export default function Home() {
             <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-muted-foreground">
               Crucible Analytics uses AI to analyze your workflows, generate optimized solutions, and provide actionable insights to boost efficiency.
             </p>
-            <div className="mt-8">
-              <Button asChild size="lg">
-                <Link href="/dashboard">Go to Dashboard</Link>
-              </Button>
-            </div>
           </div>
         </section>
 
