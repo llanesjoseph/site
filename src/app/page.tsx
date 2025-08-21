@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Logo } from '@/components/logo';
-import { Compass, Wrench, BarChart, Rocket } from 'lucide-react';
+import { Compass, Wrench, BarChart, Rocket, Phone, Mail } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const features = [
@@ -140,9 +140,21 @@ export default function Home() {
 
       </main>
 
-      <footer className="py-6 text-center text-sm text-muted-foreground">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <p>&copy; {new Date().getFullYear()} Crucible Analytics. All Rights Reserved.</p>
+      <footer className="py-8 bg-secondary border-t">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-muted-foreground text-sm">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p>&copy; {new Date().getFullYear()} Crucible Analytics. All Rights Reserved.</p>
+            <div className="flex items-center gap-6">
+                <a href="tel:415-483-9269" className="flex items-center gap-2 hover:text-primary transition-colors">
+                    <Phone className="h-4 w-4" />
+                    <span>415-483-9269</span>
+                </a>
+                <a href="mailto:joseph@crucibleanalytics.dev" className="flex items-center gap-2 hover:text-primary transition-colors">
+                    <Mail className="h-4 w-4" />
+                    <span>joseph@crucibleanalytics.dev</span>
+                </a>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
