@@ -9,9 +9,9 @@ export function Logo({ className }: { className?: string }) {
             <Image 
                 src="https://res.cloudinary.com/dr0jtjwlh/image/upload/v1755803724/Crucible_nrftmm.png" 
                 alt="Crucible Analytics Logo" 
-                width={160} 
-                height={160}
-                className="h-40 w-40 transition-transform group-hover:rotate-12"
+                width={200} 
+                height={200}
+                className="h-52 w-52 transition-transform group-hover:rotate-12"
             />
         </div>
     </Link>
