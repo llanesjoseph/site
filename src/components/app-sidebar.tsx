@@ -18,6 +18,7 @@ import {
   SidebarMenuButton,
 } from "@/components/ui/sidebar";
 import { Logo } from "./logo";
+import Link from "next/link";
 
 const navItems = [
   { href: "/dashboard", icon: LayoutDashboard, label: "Dashboard" },
@@ -33,7 +34,9 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <Logo />
+        <Link href="/">
+          <Logo />
+        </Link>
       </SidebarHeader>
       <SidebarContent>
         <SidebarMenu>

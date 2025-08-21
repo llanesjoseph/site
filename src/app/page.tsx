@@ -49,12 +49,12 @@ const benefits = [
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <header className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <Logo />
-      </header>
       <main className="flex-grow">
-        <section className="text-center py-20 lg:py-32">
+        <section className="text-center py-20 lg:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+            <div className="mb-8">
+              <Logo />
+            </div>
             <h1 className="text-5xl sm:text-6xl lg:text-8xl font-extrabold tracking-tight font-headline bg-gradient-to-r from-[#00E5FF] to-[#FF8A00] text-transparent bg-clip-text">
               Unlock Your Team's True Potential
             </h1>
