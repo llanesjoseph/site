@@ -27,6 +27,24 @@ const features = [
   },
 ];
 
+const benefits = [
+    {
+      icon: '🛡️',
+      title: 'Cross‑industry insight',
+      description: 'See opportunities your competition cannot.',
+    },
+    {
+      icon: '🏗️',
+      title: 'Custom‑built tools',
+      description: 'Immediate impact without off the shelf limits.',
+    },
+    {
+      icon: '📚',
+      title: 'Measured outcomes',
+      description: 'Track savings in time, cost, and morale.',
+    },
+]
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
@@ -66,6 +84,30 @@ export default function Home() {
                     ))}
                 </div>
             </div>
+        </section>
+
+        <section className="py-20 lg:py-24">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-4">
+                <h2 className="text-3xl font-bold font-headline">A better way to build</h2>
+                <p className="text-lg text-muted-foreground">
+                    Crucible is not just another analytics tool. We provide a comprehensive platform to transform your operations from the ground up.
+                </p>
+              </div>
+              <div className="space-y-8">
+                {benefits.map((benefit) => (
+                    <div key={benefit.title} className="flex items-start gap-4">
+                        <div className="text-4xl">{benefit.icon}</div>
+                        <div>
+                            <h3 className="text-xl font-semibold">{benefit.title}</h3>
+                            <p className="text-muted-foreground mt-1">{benefit.description}</p>
+                        </div>
+                    </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </section>
 
       </main>
