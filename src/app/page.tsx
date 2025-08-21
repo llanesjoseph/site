@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Logo } from '@/components/logo';
 import { Compass, Wrench, BarChart, Rocket } from 'lucide-react';
@@ -105,6 +106,33 @@ export default function Home() {
                         </div>
                     </div>
                 ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-20 lg:py-24 bg-secondary">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="flex justify-center">
+                <Image 
+                  src="https://placehold.co/400x400.png"
+                  alt="Joseph M. Llanes" 
+                  width={400} 
+                  height={400} 
+                  className="rounded-full object-cover"
+                  data-ai-hint="portrait man"
+                />
+              </div>
+              <div className="space-y-4">
+                <h2 className="text-3xl font-bold font-headline">About the Founder</h2>
+                <h3 className="text-2xl font-semibold text-primary">Joseph M. Llanes</h3>
+                <p className="text-lg text-muted-foreground">
+                    Founder of Crucible Analytics. Master’s in crime analysis. Fifteen years solving operational problems in high stakes environments.
+                </p>
+                <p className="text-lg text-muted-foreground">
+                    I bring methods you will not find in your field’s handbook. Then I build and deploy the tools that make the change stick.
+                </p>
               </div>
             </div>
           </div>
