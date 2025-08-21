@@ -5,7 +5,7 @@ export function Logo({ className }: { className?: string }) {
   return (
     <Link href="/" className="group focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-md">
       <div className={cn("flex items-center gap-3 text-2xl font-bold tracking-tight", className)}>
-        <svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" width="250" height="auto">
+        <svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" width="750" height="auto">
           <defs>
             <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stopColor="#00E5FF"/>
