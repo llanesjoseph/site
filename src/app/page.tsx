@@ -106,6 +106,21 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="py-20 lg:py-24 bg-secondary">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <div className="max-w-3xl mx-auto">
+                  <h2 className="text-3xl font-bold font-headline">About the Founder</h2>
+                  <h3 className="text-2xl font-semibold mt-4">Joseph M. Llanes</h3>
+                  <p className="mt-4 text-lg text-muted-foreground">
+                      Founder of Crucible Analytics. Master’s in crime analysis. Fifteen years solving operational problems in high stakes environments.
+                  </p>
+                  <p className="mt-4 text-lg text-muted-foreground">
+                      I bring methods you will not find in your field’s handbook. Then I build and deploy the tools that make the change stick.
+                  </p>
+              </div>
+          </div>
+        </section>
+
       </main>
 
       <footer className="py-8 bg-secondary border-t">
