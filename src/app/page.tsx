@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <main className="flex-grow">
-        <section className="text-center py-20 lg:py-32">
+        <section className="text-center py-20 lg:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
             <div className="mb-8">
               <Logo />
@@ -59,7 +59,7 @@ export default function Home() {
               Unlock Your Team's True Potential
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-muted-foreground">
-              Crucible Analytics uses AI to analyze your workflows, generate optimized solutions, and provide actionable insights to boost efficiency.
+              I use cutting-edge tools and cross-field insights to build better, more efficient workflows for your team.
             </p>
           </div>
         </section>
