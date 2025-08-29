@@ -49,6 +49,11 @@ const benefits = [
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
+      <header className="absolute top-0 left-0 w-full z-20 p-4">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <Logo />
+        </div>
+      </header>
       <main className="flex-grow">
         <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
             <video
@@ -61,9 +66,6 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-black/50 z-0"></div>
             <div className="relative z-10 text-center text-white px-4">
-                <div className="mb-8">
-                    <Logo />
-                </div>
                 <h1 className="text-5xl sm:text-6xl lg:text-8xl font-extrabold tracking-tight font-display bg-gradient-to-r from-primary to-amber-400 text-transparent bg-clip-text">
                     Unlock Your Team's True Potential
                 </h1>
