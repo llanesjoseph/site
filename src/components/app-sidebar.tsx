@@ -40,7 +40,7 @@ export function AppSidebar() {
             alt="Crucible Analytics Logo"
             width={200}
             height={44}
-            className="w-auto h-auto"
+            className="w-full h-auto"
             priority
           />
         </Link>
