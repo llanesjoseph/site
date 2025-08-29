@@ -59,7 +59,15 @@ export default function Home() {
                 className="absolute top-0 left-0 w-full h-full object-cover -z-10"
             />
             <div className="absolute inset-0 bg-black/40 z-0"></div>
-            <div className="relative z-10 text-white px-4">
+            <div className="relative z-10 text-white px-4 flex flex-col items-center">
+                <Image
+                  src="https://res.cloudinary.com/dr0jtjwlh/image/upload/v1756470323/crucible_logo_1000px_lqooa3.png"
+                  alt="Crucible Analytics Logo"
+                  width={600}
+                  height={132}
+                  className="mb-8 w-full max-w-lg h-auto"
+                  priority
+                />
                 <h1 className="text-5xl sm:text-6xl lg:text-8xl font-extrabold tracking-tight font-display bg-gradient-to-r from-primary to-amber-400 text-transparent bg-clip-text">
                     Unlock Your Team's True Potential
                 </h1>
