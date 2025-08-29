@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import {
   GitFork,
   LayoutDashboard,
@@ -33,8 +34,15 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <Link href="/" className="text-xl font-bold p-2">
-          Crucible Analytics
+        <Link href="/" className="block p-2">
+          <Image 
+            src="https://res.cloudinary.com/dr0jtjwlh/image/upload/v1756470323/crucible_logo_1000px_lqooa3.png"
+            alt="Crucible Analytics Logo"
+            width={200}
+            height={44}
+            className="w-auto h-auto"
+            priority
+          />
         </Link>
       </SidebarHeader>
       <SidebarContent>
