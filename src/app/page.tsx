@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Logo } from '@/components/logo';
 import { Compass, Wrench, BarChart, Rocket, Phone, Mail } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -51,7 +50,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-background">
       <header className="absolute top-0 left-0 w-full z-20 p-4">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <Logo />
+          <Link href="/" className="text-2xl font-bold text-white">Crucible Analytics</Link>
         </div>
       </header>
       <main className="flex-grow">

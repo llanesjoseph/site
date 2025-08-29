@@ -17,7 +17,6 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
 } from "@/components/ui/sidebar";
-import { Logo } from "./logo";
 import Link from "next/link";
 
 const navItems = [
@@ -34,8 +33,8 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <Link href="/">
-          <Logo />
+        <Link href="/" className="text-xl font-bold p-2">
+          Crucible Analytics
         </Link>
       </SidebarHeader>
       <SidebarContent>
