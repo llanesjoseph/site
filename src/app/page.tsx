@@ -48,23 +48,21 @@ const benefits = [
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <header className="absolute top-0 left-0 w-full z-20 p-4">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/" className="text-2xl font-bold text-white">Crucible Analytics</Link>
-        </div>
+      <header className="absolute top-0 left-0 w-full z-20 h-[220px] overflow-hidden">
+        <video
+            src="https://res.cloudinary.com/dr0jtjwlh/video/upload/v1756467151/Crucible_ritypc.mp4"
+            playsInline
+            autoPlay
+            muted
+            loop
+            className="absolute top-1/2 left-1/2 w-full h-auto min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2 -z-10"
+        />
+        <div className="absolute inset-0 bg-black/30 z-0"></div>
       </header>
       <main className="flex-grow">
         <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-            <video
-                src="https://res.cloudinary.com/dr0jtjwlh/video/upload/v1756467151/Crucible_ritypc.mp4"
-                playsInline
-                autoPlay
-                muted
-                loop
-                className="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 -z-10"
-            />
-            <div className="absolute inset-0 bg-black/50 z-0"></div>
-            <div className="relative z-10 text-center text-white px-4">
+            <div className="absolute inset-0 bg-transparent z-0"></div>
+            <div className="relative z-10 text-center text-white px-4 pt-[220px]">
                 <h1 className="text-5xl sm:text-6xl lg:text-8xl font-extrabold tracking-tight font-display bg-gradient-to-r from-primary to-amber-400 text-transparent bg-clip-text">
                     Unlock Your Team's True Potential
                 </h1>
