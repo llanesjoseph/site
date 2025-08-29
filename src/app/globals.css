@@ -4,24 +4,24 @@
 
 @layer base {
   :root {
-    --background: 21 100% 95%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 21 100% 50%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 47 48% 60%;
-    --accent-foreground: 0 0% 9%;
+    --background: 21 100% 95%; /* Porcelain (#FFEEE4) */
+    --foreground: 20 14% 4%;
+    --card: 21 100% 95%;
+    --card-foreground: 20 14% 4%;
+    --popover: 21 100% 95%;
+    --popover-foreground: 20 14% 4%;
+    --primary: 21 100% 50%; /* Vivid Orange (#FF5700) */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 21 20% 90%;
+    --secondary-foreground: 20 14% 4%;
+    --muted: 21 20% 90%;
+    --muted-foreground: 20 14% 35%;
+    --accent: 47 48% 60%; /* Soft Gold (#CFB864) */
+    --accent-foreground: 20 14% 4%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
+    --border: 21 20% 85%;
+    --input: 21 20% 85%;
     --ring: 21 100% 50%;
     --chart-1: 21 100% 50%;
     --chart-2: 47 48% 60%;
@@ -29,13 +29,13 @@
     --chart-4: 47 38% 70%;
     --chart-5: 0 0% 63.9%;
     --radius: 0.5rem;
-    --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 0 0% 3.9%;
+    --sidebar-background: 21 50% 97%;
+    --sidebar-foreground: 20 14% 4%;
     --sidebar-primary: 21 100% 50%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 21 100% 95%;
-    --sidebar-accent-foreground: 21 100% 50%;
-    --sidebar-border: 0 0% 89.8%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 21 100% 90%;
+    --sidebar-accent-foreground: 21 100% 40%;
+    --sidebar-border: 21 20% 85%;
     --sidebar-ring: 21 100% 50%;
   }
   .dark {

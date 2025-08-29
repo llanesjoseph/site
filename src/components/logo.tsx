@@ -8,8 +8,8 @@ export function Logo({ className }: { className?: string }) {
         <svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" width="750" height="auto">
           <defs>
             <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="#00E5FF"/>
-              <stop offset="100%" stopColor="#FF8A00"/>
+              <stop offset="0%" stopColor="hsl(var(--primary))"/>
+              <stop offset="100%" stopColor="#FFC300"/>
             </linearGradient>
             <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
               <feGaussianBlur stdDeviation="2" result="blur"/>
@@ -63,7 +63,7 @@ export function Logo({ className }: { className?: string }) {
           <style>
             {`
               .nodes circle {
-                fill: #FF8A00;
+                fill: hsl(var(--primary));
                 filter: url(#glow);
                 animation: blink 2.4s infinite ease-in-out;
               }
@@ -76,7 +76,7 @@ export function Logo({ className }: { className?: string }) {
               .nodes circle:nth-child(8) { animation-delay: 2.1s; }
 
               .pulse {
-                stroke: #19D4FF;
+                stroke: #FFC300;
                 stroke-width: 2.2;
                 stroke-dasharray: 1 120;
                 animation: travel 2.4s infinite linear;

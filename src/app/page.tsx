@@ -50,18 +50,27 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <main className="flex-grow">
-        <section className="text-center py-20 lg:py-24">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-            <div className="mb-8">
-              <Logo />
+        <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+            <video
+                src="https://res.cloudinary.com/dr0jtjwlh/video/upload/v1756467151/Crucible_ritypc.mp4"
+                playsInline
+                autoPlay
+                muted
+                loop
+                className="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 -z-10"
+            />
+            <div className="absolute inset-0 bg-black/50 z-0"></div>
+            <div className="relative z-10 text-center text-white px-4">
+                <div className="mb-8">
+                    <Logo />
+                </div>
+                <h1 className="text-5xl sm:text-6xl lg:text-8xl font-extrabold tracking-tight font-display bg-gradient-to-r from-primary to-amber-400 text-transparent bg-clip-text">
+                    Unlock Your Team's True Potential
+                </h1>
+                <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-slate-200">
+                    Crucible Analytics is an AI-powered platform that transforms team workflows by identifying hidden inefficiencies and generating data-driven solutions.
+                </p>
             </div>
-            <h1 className="text-5xl sm:text-6xl lg:text-8xl font-extrabold tracking-tight font-display bg-gradient-to-r from-[#00E5FF] to-[#FF8A00] text-transparent bg-clip-text">
-              Unlock Your Team's True Potential
-            </h1>
-            <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-muted-foreground">
-              I use cutting-edge tools and cross-field insights to build better, more efficient workflows for your team.
-            </p>
-          </div>
         </section>
 
         <section className="py-20 lg:py-24 bg-secondary">
