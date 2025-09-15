@@ -5,8 +5,8 @@ import { ArrowRight } from 'lucide-react';
 
 const apps = [
   {
-    title: 'Project Alpha',
-    description: 'A brief description of Project Alpha. What it does and who it is for.',
+    title: 'GAMEPLAN',
+    description: 'An AI-powered tool to generate strategic plans and workflows.',
     link: '#',
   },
   {
