@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Crucible Analytics',
-  description: 'Unlock Your Team\'s True Potential',
+  description: "Unlock Your Team's True Potential",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@700&family=Consolas&family=Audiowide&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Audiowide&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">{children}</body>
     </html>

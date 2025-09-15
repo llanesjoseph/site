@@ -74,11 +74,6 @@ export default function Home() {
                 <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-slate-200">
                     Crucible Analytics is an AI-powered platform that transforms team workflows by identifying hidden inefficiencies and generating data-driven solutions.
                 </p>
-                <div className="mt-8 flex justify-center">
-                  <Button asChild size="lg">
-                    <Link href="/dashboard">Get Started</Link>
-                  </Button>
-                </div>
             </div>
         </section>
 
