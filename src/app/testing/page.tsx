@@ -15,8 +15,8 @@ const apps = [
     link: '/testing/score',
   },
   {
-    title: 'Project Gamma',
-    description: 'A brief description of Project Gamma. What it does and who it is for.',
+    title: 'KAYA',
+    description: 'A brief description of KAYA. What it does and who it is for.',
     link: '#',
   },
 ];
