@@ -7,12 +7,12 @@ const apps = [
   {
     title: 'GAMEPLAN',
     description: 'An AI-powered tool to generate strategic plans and workflows.',
-    link: '#',
+    link: '/testing/gameplan',
   },
   {
-    title: 'Project Beta',
-    description: 'A brief description of Project Beta. What it does and who it is for.',
-    link: '#',
+    title: 'SCORE',
+    description: 'A tool for measuring and evaluating performance outcomes.',
+    link: '/testing/score',
   },
   {
     title: 'Project Gamma',
