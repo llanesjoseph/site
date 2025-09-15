@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Compass, Wrench, BarChart, Rocket, Phone, Mail } from 'lucide-react';
+import { Compass, Wrench, BarChart, Rocket, Phone, Mail, FlaskConical } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const features = [
@@ -141,6 +141,10 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p>&copy; {new Date().getFullYear()} Crucible Analytics. All Rights Reserved.</p>
             <div className="flex items-center gap-6">
+                <Link href="/testing" className="flex items-center gap-2 hover:text-primary transition-colors">
+                    <FlaskConical className="h-4 w-4" />
+                    <span>Testing Ground</span>
+                </Link>
                 <a href="tel:415-483-9269" className="flex items-center gap-2 hover:text-primary transition-colors">
                     <Phone className="h-4 w-4" />
                     <span>415-483-9269</span>
