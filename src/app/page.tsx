@@ -59,7 +59,7 @@ export default function Home() {
                 className="absolute top-0 left-0 w-full h-full object-cover -z-10"
             />
             <div className="absolute inset-0 bg-black/40 z-0"></div>
-            <div className="relative z-10 text-white px-4 flex flex-col items-center">
+            <div className="relative z-10 text-white px-4 flex flex-col items-center pt-16">
                 <Image
                   src="https://res.cloudinary.com/dr0jtjwlh/image/upload/v1756470323/crucible_logo_1000px_lqooa3.png"
                   alt="Crucible Analytics Logo"
